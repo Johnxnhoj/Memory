@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+**::after {
+  box-sizing: inherit;
+}
+.container {
+  height: 1000px;
+}
+header {
+  height: 100px;
+  color: greenyellow;
+}
+
+.boss {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 300px;
+}
+.worker {
+  /* color: white; */
+  /* background-image: url(/imgs/nint.png); */
+  background: black;
+  width: 125px;
+  height: 125px;
+  margin: 2px;
+  color: black;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.show {
+  background: red;
+}
+
+.flip {
+  background: blue;
+}
